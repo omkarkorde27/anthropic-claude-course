@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create an AWS Lambda function that extracts the AWS account ID from an ARN string",
+    "format": "python",
+    "solution_criteria": "Must parse ARN format (arn:aws:service:region:account-id:resource), extract and return the account ID, include proper error handling, and be suitable for Lambda with runtime Python 3.11, memory 128MB, and 30-second timeout"
+  },
+  {
+    "task": "Generate a CloudFormation template JSON configuration for an S3 bucket with versioning enabled and public access blocked",
+    "format": "json",
+    "solution_criteria": "Must define S3 bucket resource with VersioningConfiguration and PublicAccessBlockConfiguration properties, include proper AWS CloudFormation syntax, and be valid JSON that can be deployed directly"
+  },
+  {
+    "task": "Create a regex pattern to validate AWS IAM role names according to AWS naming conventions",
+    "format": "regex",
+    "solution_criteria": "Must match valid IAM role names (alphanumeric, hyphens, underscores, 1-64 characters), reject invalid characters, and work with common regex engines used in Python and validation tools"
+  }
+]

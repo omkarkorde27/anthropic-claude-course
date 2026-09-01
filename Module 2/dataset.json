@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create an AWS Lambda function that extracts the AWS account ID from an SNS message ARN using pattern matching",
+    "format": "regex",
+    "solution_criteria": "Must match ARN format 'arn:aws:sns:region:account-id:topic-name' and capture the 12-digit account ID in a group"
+  },
+  {
+    "task": "Generate a CloudFormation template JSON configuration for an S3 bucket with versioning enabled and public access blocked",
+    "format": "json",
+    "solution_criteria": "Must include S3 bucket resource, VersioningConfiguration property set to Enabled, and PublicAccessBlockConfiguration with all block settings set to true"
+  },
+  {
+    "task": "Write a Python function that validates an AWS IAM policy document by checking for required keys and returning a boolean result",
+    "format": "python",
+    "solution_criteria": "Must validate presence of 'Version' and 'Statement' keys, check that Statement is a list, and return True/False without external dependencies"
+  }
+]
